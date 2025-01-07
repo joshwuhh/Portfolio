@@ -5,9 +5,18 @@
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
+            "name": "postgres",
+            "database": "postgres",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
             "name": "sql_course",
-            "username": "postgres",
-            "database": "postgres"
+            "database": "sql_course",
+            "username": "postgres"
         }
     ]
 }
