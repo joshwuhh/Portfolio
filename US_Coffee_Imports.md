@@ -1,4 +1,4 @@
-## Project Status: In progress 
+## Learning Project
 ![Imgur](https://imgur.com/kN2ygv1.gif)
 
 # Table of Contents
