@@ -7,7 +7,10 @@ You will create SQL queries to explore this large dataset to be specific to you
 For those job searching or looking for a promotion; you can not only use this project to showcase experience BUT also to extract what roles/skills you should target...
 
 
-# Seattle AirBNB Project
+# Data Job Market Analysis 📊 
+This project dives into the Data job market.🧑🏻‍💻 Focusing on data analyst roles, this project explores top paying jobs 🔥, in demand skills and pin points where demand and salary meet in data analytics. 🏆
+
+🔎 Sql Queries! : [SQL Project Folder](/project_sql) 
 
 # Table of Contents
 - [Understanding the Data](#)
@@ -17,8 +20,7 @@ For those job searching or looking for a promotion; you can not only use this pr
 - [The Dashboard](#Snapshot-of-Dashboard)
 - [Insights](#Insights)
 
-### Dashboard Link : https://public.tableau.com/views/AirBnBDashboardProject_17259158037870/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
+### Dashboard Link : 
 ## Understanding the Data
 
 ## Problem Statement
