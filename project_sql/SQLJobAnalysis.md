@@ -20,32 +20,55 @@ This project dives into the Data job market.🧑🏻‍💻 Focusing on data ana
 - [The Dashboard](#Snapshot-of-Dashboard)
 - [Insights](#Insights)
 
-### Dashboard Link : 
+
 ## Understanding the Data
-
-## Problem Statement
-
-
-## Questions 
-
-### Steps followed 
+Data has been sourced from [SQL Course](https://lukebarousse.com/sql). 
+The data is comprised of 787k+ rows of data on Job Postings which include Job titles, Locations and Pay along with over 3 million rows of data on the skills required within those postings. 
 
 
+## About
+This project was created from my drive to break into a career in data analytics. Streamlining the process of the job hunt by finding the top-paid and in-demand skills needed to secure a promising career optimally!
+
+## Questions asked of the Data
+1. Which data analyst jobs have the highest pay?
+2. What skills are required for those jobs?
+3. What skills are most in-demand for data analyst?
+4. Which skills are associated with higher salaries?
+5. What are the most optimal skills to learn? 
+
+### Tools
+- **SQL** : The foundation of the project utilized SQL in order to unearth insights.
+- **PostgreSQL** : As the database management system 
+- **Visual Studio Code** : My chosen editor for data-management and SQL query execution
+- **Git & Github** : Used for version control and sharing SQL scripts and analysis. Ensuring collaboration and project tracking. 
 
 
 
-# Snapshot of Dashboard 
 
 
 
+# Analysis and Approach 
 
+### [1] Top Paying Analyst Jobs
 
-# Insights
-
-
-
-### [1] Highest average grossing zip code = (98134) at $204
-
+```
+SELECT 
+    job_id,
+    job_title,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    job_posted_date,
+    name AS company_name
+FROM 
+    job_postings_fact
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE job_title_short = 'Data Analyst'
+AND job_location = 'Anywhere'
+AND salary_year_avg IS NOT NULL
+ORDER BY salary_year_avg DESC
+LIMIT 10
+```
 
 ### [2] Competition weight is largest for one Bedrooms, lowest for properties with 4+ Bedrooms 
   
@@ -56,3 +79,4 @@ This project dives into the Data job market.🧑🏻‍💻 Focusing on data ana
 
 
  
+### Dashboard Link : 
