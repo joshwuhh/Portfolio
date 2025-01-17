@@ -105,6 +105,9 @@ Bar graph visualizing data analysis skills and their associated salaries, CHATGp
 
 ### [3] Most in-demand skills for data analysts
 
+This query helped me identify the most frequently 
+
+
 ```
 SELECT skills,
 COUNT(skills_job_dim.job_id) AS demand_count
@@ -117,7 +120,15 @@ GROUP BY skills
 ORDER BY demand_count DESC
 LIMIT 5
 ```
+
+SQL and Excel remain fundamental which emphasize the need for strong foundational skills in data processing and spreadsheet manipulation. 
+
+Programming and Visualizaiton Tools like Python, Tableau and PowerBI are also essential, showing an increasing importance of technical skills in data storytelling and decision support. 
+
+
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/d70c0188-1469-4063-8d97-32e196c627fa" />
+
+Tabulated data for the query results, exported from excel
 
 
  ### [4] Skills associated with higher salaries 
