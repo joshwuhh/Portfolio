@@ -148,33 +148,7 @@ ORDER BY avg_salary DESC
 LIMIT 25
 
 ```
-
-Skills	Average Salary
-elasticsearch	$185,000
-neo4j	$185,000
-cassandra	$175,000
-dplyr	$167,500
-unix	$162,500
-perl	$157,000
-twilio	$150,000
-spring	$147,500
-c	$146,500
-angular	$138,516
-gcp	$135,294
-kafka	$135,000
-pandas	$133,169
-scikit-learn	$130,000
-linux	$127,500
-shell	$126,250
-express	$126,005
-java	$125,147
-numpy	$125,062
-c++	$124,044
-git	$123,750
-azure	$122,692
-airflow	$122,500
-plotly	$122,500
-qlik	$120,763
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/3f9ce447-3962-46c2-8fc8-4845d0d8b572" />
 
 _A breakdown of the highest paying skills:_
 
