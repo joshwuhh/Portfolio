@@ -148,6 +148,7 @@ ORDER BY avg_salary DESC
 LIMIT 25
 
 ```
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/3f9ce447-3962-46c2-8fc8-4845d0d8b572" />
 
 _A breakdown of the highest paying skills:_
 
