@@ -152,11 +152,11 @@ LIMIT 25
 
 _A breakdown of the highest paying skills:_
 
-High demand for Big Data and ML skills: The industry seems to place high value on big data technologies (Pyspark, Couchbase), machine learning tools (Datarobot and Jupyter) and Python Libraries (Pandas, Numpy) showing the high value placed data processing and predictive modeling capabilities. 
+- **High demand for Big Data and ML skills**: The industry seems to place high value on big data technologies (Pyspark, Couchbase), machine learning tools (Datarobot and Jupyter) and Python Libraries (Pandas, Numpy) showing the high value placed data processing and predictive modeling capabilities. 
 
-Software development & Deployment proficiency: Knowldege in development and deployment tools (GitLab, Airflow) indicates a lucrative crossover between engineering and data analysis, showing strength in having skills that facilitate automation and data pipeline management. 
+- **Software development & Deployment proficiency**: Knowldege in development and deployment tools (GitLab, Airflow) indicates a lucrative crossover between engineering and data analysis, showing strength in having skills that facilitate automation and data pipeline management. 
 
-Cloud Computing: The data shows there is an importance in cloud-based analytics enviornments and tools (Databricks, CGP) which can boost potential salary in data analytics.
+- **Cloud Computing**: The data shows there is an importance in cloud-based analytics enviornments and tools (Databricks, CGP) which can boost potential salary in data analytics.
 
 
 ### [5] Most optimal skills to have
