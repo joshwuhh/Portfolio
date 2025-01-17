@@ -98,7 +98,10 @@ WITH top_paying_jobs AS (
 ) 
 ```
 
+<<<<<<< HEAD
 ![Top Paying Skills](Images/Top_paying_skills.png)
+=======
+>>>>>>> refs/remotes/origin/main
   
 ### [3] Most in-demand skills for data analysts
 
