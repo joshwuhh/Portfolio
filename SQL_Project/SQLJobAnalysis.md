@@ -117,7 +117,7 @@ GROUP BY skills
 ORDER BY demand_count DESC
 LIMIT 5
 ```
-<img width="178" alt="image" src="https://github.com/user-attachments/assets/d70c0188-1469-4063-8d97-32e196c627fa" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/d70c0188-1469-4063-8d97-32e196c627fa" />
 
 
  ### [4] Skills associated with higher salaries 
