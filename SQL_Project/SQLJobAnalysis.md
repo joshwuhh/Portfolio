@@ -97,7 +97,7 @@ WITH top_paying_jobs AS (
     LIMIT 10
 ) 
 ```
-![Image](Images/Top_paying_skills.png)
+![Image](assets/Top_paying_skills.png)
 
 ### [3] Most in-demand skills for data analysts
 
