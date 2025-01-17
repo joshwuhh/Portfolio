@@ -150,7 +150,9 @@ LIMIT 25
 ```
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/3f9ce447-3962-46c2-8fc8-4845d0d8b572" />
 
-_A breakdown of the highest paying skills:_
+_Table for average salaries for top 25 skills_ 
+
+A breakdown of the highest paying skills:
 
 - **High demand for Big Data and ML skills**: The industry seems to place high value on big data technologies (Pyspark, Couchbase), machine learning tools (Datarobot and Jupyter) and Python Libraries (Pandas, Numpy) showing the high value placed data processing and predictive modeling capabilities. 
 
@@ -160,6 +162,8 @@ _A breakdown of the highest paying skills:_
 
 
 ### [5] Most optimal skills to have
+
+Combining insights from demand and skills, this query aimed to pinpoint skills that are both high demand and have high salaries, offering a strategic focus for skill development. 
 
 ```
 WITH skills_demand AS (
@@ -200,6 +204,6 @@ ORDER BY
     demand_count DESC
 LIMIT 25
 ```
-
+A breakdown of 
  
 ### Dashboard Link : 
