@@ -141,14 +141,13 @@ FROM job_postings_fact
 INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE job_title_short = 'Data Analyst'
-AND job_location = 'New York, NY'
+AND job_location = 'Anywhere'
 AND salary_year_avg IS NOT NULL 
 GROUP BY skills
 ORDER BY avg_salary DESC
 LIMIT 25
 
 ```
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/3f9ce447-3962-46c2-8fc8-4845d0d8b572" />
 
 _A breakdown of the highest paying skills:_
 
