@@ -74,8 +74,7 @@ The breakdown of the top data analyst jobs in 2023.
 
 - **Diverse Employers:** Companies like SmartAsset, Meta and AT&T are among those offering high salaries. This indicates wide interest across various industries. 
 
-- **Job Title Variety:** 
-
+- **Job Title Variety:** There is a high variety of job titles, reflecting varied roles and specializations within data analytics. 
 
 
 ### [2] Skills required for those jobs
@@ -98,6 +97,8 @@ WITH top_paying_jobs AS (
     LIMIT 10
 ) 
 ```
+
+![Top Paying Skills](SQL_Project/assets/Top_paying_skills.png)
   
 ### [3] Most in-demand skills for data analysts
 
