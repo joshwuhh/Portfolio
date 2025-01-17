@@ -79,6 +79,7 @@ The breakdown of the top data analyst jobs in 2023.
 
 ### [2] Skills required for those jobs
 
+To understand what is required for those top paying jobs, I joined the job postings with skills data, providing insights into what employers value for high-pay roles
 ```
 WITH top_paying_jobs AS (
     SELECT 
@@ -100,7 +101,7 @@ WITH top_paying_jobs AS (
 
 
 ![Image](assets/Top_paying_skills.png)
-Bar graph visualizing data analysis skills and their associated salaries
+Bar graph visualizing data analysis skills and their associated salaries, CHATGpt generated using my SQL query results
 
 ### [3] Most in-demand skills for data analysts
 
