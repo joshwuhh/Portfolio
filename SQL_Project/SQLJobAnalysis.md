@@ -152,6 +152,9 @@ LIMIT 25
 
 _A breakdown of the highest paying skills:_
 
+High demand for Big Data and ML skills: The industry seems to place high value on big data technologies (Pyspark, Couchbase), machine learning tools (Datarobot and Jupyter) and Python Libraries (Pandas, Numpy) showing the high value placed data processing and predictive modeling capabilities. 
+
+Software development & Deployment proficiency: 
 ### [5] Most optimal skills to have
 
 ```
