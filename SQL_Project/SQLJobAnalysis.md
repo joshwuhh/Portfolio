@@ -97,7 +97,10 @@ WITH top_paying_jobs AS (
     LIMIT 10
 ) 
 ```
+
+
 ![Image](assets/Top_paying_skills.png)
+Bar graph visualizing data analysis skills and their associated salaries
 
 ### [3] Most in-demand skills for data analysts
 
