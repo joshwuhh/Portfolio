@@ -101,8 +101,8 @@ WITH top_paying_jobs AS (
 
 
 ![Image](assets/Top_paying_skills.png)
-_Bar graph visualizing data analysis skills and their associated salaries, CHATGpt generated using my SQL query results
-_
+_Bar graph visualizing data analysis skills and their associated salaries, CHATGpt generated using my SQL query results_
+
 ### [3] Most in-demand skills for data analysts
 
 This query helped me identify the most frequently 
