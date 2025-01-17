@@ -101,8 +101,8 @@ WITH top_paying_jobs AS (
 
 
 ![Image](assets/Top_paying_skills.png)
-Bar graph visualizing data analysis skills and their associated salaries, CHATGpt generated using my SQL query results
-
+_Bar graph visualizing data analysis skills and their associated salaries, CHATGpt generated using my SQL query results
+_
 ### [3] Most in-demand skills for data analysts
 
 This query helped me identify the most frequently 
@@ -120,15 +120,14 @@ GROUP BY skills
 ORDER BY demand_count DESC
 LIMIT 5
 ```
+- **SQL** and **Excel** remain fundamental which emphasize the need for strong foundational skills in data processing and spreadsheet manipulation. 
 
-SQL and Excel remain fundamental which emphasize the need for strong foundational skills in data processing and spreadsheet manipulation. 
-
-Programming and Visualizaiton Tools like Python, Tableau and PowerBI are also essential, showing an increasing importance of technical skills in data storytelling and decision support. 
+- **Programming** and **Visualizaiton** **Tools** like **Python**, **Tableau** and **PowerBI** are also essential, showing an increasing importance of technical skills in data storytelling and decision support. 
 
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/d70c0188-1469-4063-8d97-32e196c627fa" />
 
-Tabulated data for the query results, exported from excel
+_Tabulated data for the query results, exported from excel_
 
 
  ### [4] Skills associated with higher salaries 
