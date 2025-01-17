@@ -97,6 +97,7 @@ WITH top_paying_jobs AS (
     LIMIT 10
 ) 
 ```
+![](SQL_Project/assets/Top_paying_skills.png)
 
 ### [3] Most in-demand skills for data analysts
 
