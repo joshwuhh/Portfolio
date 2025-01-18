@@ -13,12 +13,10 @@ This project dives into the Data job market.🧑🏻‍💻 Focusing on data ana
 🔎 Sql Queries! : [SQL Project Folder](/project_sql) 
 
 # Table of Contents
-- [Understanding the Data](#)
-- [Problem Statement](#Problem-Statement)
-- [Questions](#Questions)
-- [Process](#Steps-followed)
-- [The Dashboard](#Snapshot-of-Dashboard)
-- [Insights](#Insights)
+- [Understanding the Data](#Understanding-the-Data)
+- [Questions](#Questions-asked-of-the-Data)
+- [Tools](#Tools)
+- [The Analysis](#Analysis-and-Approach)
 
 
 ## Understanding the Data
@@ -204,11 +202,11 @@ ORDER BY
     demand_count DESC
 LIMIT 25
 ```
+_Table for the most optimal skills for Data Analysts sorted by salaries_
 
-A breakdown of
+A breakdown of the most optimal skills for Data Analysts
 
 
 <img width="292" alt="image" src="https://github.com/user-attachments/assets/f0711bb1-bf59-48fa-a13b-ec83f7f596a5" />
 
  
-### Dashboard Link : 
