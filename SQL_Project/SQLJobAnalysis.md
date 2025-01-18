@@ -203,7 +203,6 @@ ORDER BY
     demand_count DESC
 LIMIT 25
 ```
-_Table for the most optimal skills for Data Analysts sorted by salaries_
 
 A breakdown of the most optimal skills for Data Analysts:
 
@@ -217,6 +216,7 @@ A breakdown of the most optimal skills for Data Analysts:
   
 
 <img width="292" alt="image" src="https://github.com/user-attachments/assets/f0711bb1-bf59-48fa-a13b-ec83f7f596a5" />
+_Table for the most optimal skills for Data Analysts sorted by salaries_
 
  
 ### Final Insights
