@@ -1,11 +1,3 @@
-Goals of project  
-
-You are an aspiring data nerd looking to analyze the top-paying roles and skills 
-
-You will create SQL queries to explore this large dataset to be specific to you  
-
-For those job searching or looking for a promotion; you can not only use this project to showcase experience BUT also to extract what roles/skills you should target...
-
 
 # Data Job Market Analysis 📊 
 This project dives into the Data job market.🧑🏻‍💻 Focusing on data analyst roles, this project explores top paying jobs 🔥, in demand skills and pin points where demand and salary meet in data analytics. 🏆
