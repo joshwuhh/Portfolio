@@ -14,9 +14,10 @@ This project dives into the Data job market.🧑🏻‍💻 Focusing on data ana
 
 # Table of Contents
 - [Understanding the Data](#Understanding-the-Data)
-- [Questions](#Questions-asked-of-the-Data)
-- [Tools](#Tools)
+- [Questions & Tools](#Questions-asked-of-the-Data)
 - [The Analysis](#Analysis-and-Approach)
+- [Insights](#Final-Insights)
+- [What I Learned](#Learning-Points)
 
 
 ## Understanding the Data
@@ -204,9 +205,32 @@ LIMIT 25
 ```
 _Table for the most optimal skills for Data Analysts sorted by salaries_
 
-A breakdown of the most optimal skills for Data Analysts
+A breakdown of the most optimal skills for Data Analysts:
 
+- **High Demand Programming Languages:** Python and R stand out for their demand with counts of 236 and 148. Despite their high demand, the average salaries for these skills are highly valued with salaries over $100,000.
+  
+- **Cloud Tools and Technologies:** Big data and cloud platform skills are also of growing importance as the data shows that specialized technologies like Snowflake, Azure, AWS, and BigQuery show very high average salaries.
+  
+- **Business Intelligence and Visualization Tools:** Tableau and Looker, with demand counts of 230 and 49 respectively and average salaries also around the $100,000 mark highlighht the critical role of data visualization and business intelligence in deriving actionable insights from data.
+  
+- **Database Technologies:** The demand for traditional and NoSQL databases (Oracle, SQL Server, NoSQL) with average salaries from $97,000 to $104,000 reflect the enduring need for storage, retrieval, and management expertise. 
+  
 
 <img width="292" alt="image" src="https://github.com/user-attachments/assets/f0711bb1-bf59-48fa-a13b-ec83f7f596a5" />
 
  
+### Final Insights
+
+1. **Top Paying Jobs** for data analysts offer a wide range of salaries with the highest paying being $650,000
+2. **Skills for those jobs:** High paying jobs require advanced proficiency in SQL, suggesting it truly is a crucial skill.
+3. **Most in demand skill** also appears to be SQL making it ESSENTIAL for job seekers.
+4. **Skills with higher salaries** include specialized skills like SVN and Solidity, indicating that there is a premium on niche expertise.
+5. **Optimal skills:** SQL leads in demand and offers a high average salary. It has proven to be the most optimal skill for analysts to learn if they wish to maximize their market value.   
+
+
+### Learning Points
+Throughout this project I hit many moments that required me to not only test knowledge I posessed but also to take time to learn new things that I can continue to use going forward. Further strengthening my SQL and Data Analysis skills. 
+
+- **Git:** While I have made use of Github and various code editors for some time now, it was this project that solidified not only how to implement version control but also how crucial project management is. This also forced me into a position to learn some problem solving skills with Git, like how to properly merge, push and pull commitments, which will definitely be handy in my future career.
+- **Query Crafting:** Using more advanced SQL was necessary here, merging tables and utilizing WITH clauses have helped me better maneuver data with temporary result sets.
+- **Analytical Skills:** This project was directly relative to my life as I continue to pursue a career as a Data Analyst. This allowed the questions asked to be more impactful as I could see the true use case for the answers I was looking for. Strengthening my skill of turning real world questions into insightful SQL queries.
