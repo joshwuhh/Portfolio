@@ -18,7 +18,7 @@ This area allowed users to enter items into categories along with the amount of 
 
 
   
-Debt projection tab
+***Account Projection***
 taught me why coding is so inmportant
 on a smaller set of data this is doable but incredibly tedious
 Having variables and constants would have made this process far easier
@@ -40,7 +40,7 @@ Moved over to VSCode to write functions
 
 
 
-Got it! Thanks for the clear example. Based on your scenario, here’s how the formulas will work to ensure:
+
 1. If a Debt or Car Loan balance is **partially paid off** in a month (e.g., only $200 needed instead of the full $500 contribution), the **excess ($300)** is redirected to Savings.
 2. If a Debt or Car Loan balance is **fully paid off** (reaches $0), the **entire contribution ($500)** is redirected to Savings in the following month.
 
