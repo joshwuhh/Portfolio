@@ -132,3 +132,5 @@ Let’s assume:
 1. If Debt or Car Loan balances are **partially paid off**, only the **excess contribution** is redirected to Savings.
 2. If Debt or Car Loan balances are **fully paid off**, the **entire contribution** is redirected to Savings.
 3. Balances for Debt and Car Loan never go below `0`.
+4. A Interest rate charge is added to each Month of Debt, using an average of all listed APRs and balance of Debt.
+   
