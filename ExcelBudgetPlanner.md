@@ -35,3 +35,102 @@ Mock flowchart...
    Is debt negative? -> Yes -> Was it negative last month? -> No -> Debt Rate - Previous month ->  Is car negative? -> Yes -> Was it negative last month? -> Y Savings rate  + Previous Savings + Car rate ( + Debt
 
 Moved over to VSCode to write functions
+
+
+
+
+
+Got it! Thanks for the clear example. Based on your scenario, here’s how the formulas will work to ensure:
+1. If a Debt or Car Loan balance is **partially paid off** in a month (e.g., only $200 needed instead of the full $500 contribution), the **excess ($300)** is redirected to Savings.
+2. If a Debt or Car Loan balance is **fully paid off** (reaches $0), the **entire contribution ($500)** is redirected to Savings in the following month.
+
+---
+
+### Updated Formulas:
+
+#### Savings (`C4:C15`):
+In `C4` (starting balance for January):
+```excel
+= Initial_Savings_Balance + (H5 * H6)
+```
+
+In `C5` (February and onward):
+```excel
+= C4 + (H5 * H6) + IF(F4 < 0, -F4, IF(F4 = 0, H5 * H7, MAX(0, (H5 * H7) - F4))) + IF(F19 < 0, -F19, IF(F19 = 0, H5 * H8, MAX(0, (H5 * H8) - F19)))
+```
+- `IF(F4 < 0, -F4, IF(F4 = 0, H5 * H7, MAX(0, (H5 * H7) - F4)))`:
+  - If Debt balance is **negative**, redirect the excess (`-F4`) to Savings.
+  - If Debt balance is **0**, redirect the entire Debt contribution (`H5 * H7`) to Savings.
+  - If Debt balance is **positive**, redirect only the excess (`(H5 * H7) - F4`) to Savings.
+- `IF(F19 < 0, -F19, IF(F19 = 0, H5 * H8, MAX(0, (H5 * H8) - F19)))`:
+  - If Car Loan balance is **negative**, redirect the excess (`-F19`) to Savings.
+  - If Car Loan balance is **0**, redirect the entire Car Loan contribution (`H5 * H8`) to Savings.
+  - If Car Loan balance is **positive**, redirect only the excess (`(H5 * H8) - F19`) to Savings.
+
+Copy this formula down to `C15`.
+
+---
+
+#### Debt (`F4:F15`):
+In `F4` (starting balance for January):
+```excel
+= Initial_Debt_Balance - (H5 * H7)
+```
+
+In `F5` (February and onward):
+```excel
+= IF(F4 <= 0, 0, MAX(0, F4 - (H5 * H7)))
+```
+- If Debt balance is **0 or negative**, it remains at `0`.
+- If Debt balance is **positive**, it is reduced by the contribution (`H5 * H7`), but never goes below `0`.
+
+Copy this formula down to `F15`.
+
+---
+
+#### Car Loan (`F19:F30`):
+In `F19` (starting balance for January):
+```excel
+= Initial_Car_Loan_Balance - (H5 * H8)
+```
+
+In `F20` (February and onward):
+```excel
+= IF(F19 <= 0, 0, MAX(0, F19 - (H5 * H8)))
+```
+- If Car Loan balance is **0 or negative**, it remains at `0`.
+- If Car Loan balance is **positive**, it is reduced by the contribution (`H5 * H8`), but never goes below `0`.
+
+Copy this formula down to `F30`.
+
+---
+
+### Example Walkthrough:
+Let’s assume:
+- **Total Funds Available (`H5`)**: $1,000
+- **Savings Percentage (`H6`)**: 50% (0.5)
+- **Debt Percentage (`H7`)**: 30% (0.3)
+- **Car Loan Percentage (`H8`)**: 20% (0.2)
+
+#### September:
+- Debt balance at the start of September: $200
+- Contribution to Debt: $300 (30% of $1,000)
+- Excess from Debt: `MAX(0, 300 - 200) = 100`
+- Savings contribution: `500 (normal) + 100 (excess from Debt) = 600`
+- Debt balance at the end of September: `MAX(0, 200 - 300) = 0`
+
+#### October:
+- Debt balance at the start of October: $0
+- Contribution to Debt: $300 (30% of $1,000)
+- Redirected to Savings: $300 (entire Debt contribution)
+- Savings contribution: `500 (normal) + 300 (redirected from Debt) = 800`
+- Debt balance at the end of October: `0`
+
+---
+
+### Key Points:
+1. If Debt or Car Loan balances are **partially paid off**, only the **excess contribution** is redirected to Savings.
+2. If Debt or Car Loan balances are **fully paid off**, the **entire contribution** is redirected to Savings.
+3. Balances for Debt and Car Loan never go below `0`.
+
+This should now perfectly match your example! Let me know if you need further adjustments. 😊
