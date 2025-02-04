@@ -18,3 +18,20 @@ This area allowed users to enter items into categories along with the amount of 
 
 
   
+Debt projection tab
+taught me why coding is so inmportant
+on a smaller set of data this is doable but incredibly tedious
+Having variables and constants would have made this process far easier
+- Difference for the added payments that would have gone towards debt will need it's own if statement to check to ensure the returned value is accurate
+        Found that in the case of the first occurence where the leading month is negative and the previous month wasn't (Free 0 balance occurence on the debt)
+        the returned value was giving a larger value
+              IE: -(300- (-200)) results in
+Mock flowchart...
+
+
+   Is debt negative? -> Yes -> Was it negative last month? -> Yes -> Is car negative? -> Yes -> Savings rate  + Previous Savings + Car rate ( + Debt
+
+
+   Is debt negative? -> Yes -> Was it negative last month? -> No -> Debt Rate - Previous month ->  Is car negative? -> Yes -> Was it negative last month? -> Y Savings rate  + Previous Savings + Car rate ( + Debt
+
+Moved over to VSCode to write functions
