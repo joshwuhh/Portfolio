@@ -17,10 +17,11 @@ Some notes of future tasks might be to separate investments from savings. This m
 !! Implement a function in every sheet that relays a total of a budget category , makes sure the amount for the category doesnt put the residual funds below 0
 
 !! Goal planning Tab - Add a chart that shows savings trajectory based on goal of user
---------
+
 
 
 Started with distributions
+------
 This area allowed users to enter items into categories along with the amount of money that went towards them each month to see totals
 - Began with table that calculated residual income after needs, wants, debts and savings from different tables
 - Created pie chart that displayed the share of income that went toward each category
