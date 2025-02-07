@@ -1,3 +1,25 @@
+Please note the below are notes I am making along the way of creating the XLS, not finalized documentation .
+--------
+
+Budget Planner - Savings and Investments 
+
+- Utilizes IF function to allow calculation of total 401k contribution with employer match, granted that the employee has a contribution greater than 0.
+- Uses data validation to ensure that the stated employer percentage match is not greater than what the employee contributed (It is a employer MATCH after all…)
+- Leftmost table allows user to input account names for familiarity and amounts they plan to save to each account each month
+- This amount combined with the 401k Calculator is used to calculate how much the user is saving compared to the take home in the Budget Planning Tab
+- Conditional formatting used to compare their calculated savings rate and amount to a recommended savings rate.
+- Center of sheet displays a stacked line chart that works in tandem with table on right side. Utilizing Months on X axis and Dollar amounts on Y.
+- One line tracks the change of savings per month and the other tracks the accumulated amount of savings over the year.
+- Below the monthly savings tracker table is a table to track total savings in all accounts. This is meant to be updated by user
+
+Some notes of future tasks might be to separate investments from savings. This might take some more complex functions … 
+
+!! Implement a function in every sheet that relays a total of a budget category , makes sure the amount for the category doesnt put the residual funds below 0
+
+!! Goal planning Tab - Add a chart that shows savings trajectory based on goal of user
+--------
+
+
 Started with distributions
 This area allowed users to enter items into categories along with the amount of money that went towards them each month to see totals
 - Began with table that calculated residual income after needs, wants, debts and savings from different tables
