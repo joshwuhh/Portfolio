@@ -1,4 +1,4 @@
-Please note the below are notes I am making along the way of creating the XLS, not finalized documentation .
+below are notes I am making along the way of creating the XLS, not finalized documentation .
 --------
 
 Budget Planner - Savings and Investments 
