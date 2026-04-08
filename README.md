@@ -9,7 +9,7 @@ I'm Joshuah from New Jersey! I do development and data analytics with an emphasi
 </p>
 
 ##  About me 
-- 🔭 I’m currently working on a some analysis projects and have certifications from both CompTIA and Google in Analytics!
+- Currenlty dabling a bit in HTML,CSS & Javascript 
 - 🌱 I’m currently learning deeply about machine learning with Python 
 
 
