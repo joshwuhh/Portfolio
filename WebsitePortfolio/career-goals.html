@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!--
-**  -Must have: Locally sources image, audio, video 
-    a Form to collect information that has the fields
+
 -->
 <html>
 
@@ -17,8 +16,15 @@
 
 
 <body>
-<img src="/media/example.jpg" alt="alternate text">
-  <!-- -->
+  <video width="320" height="240" autoplay muted controls>
+      <source src="/video.mp4" type="video/mp4">
+      Your browser does not support the video tag. 
+  </video>
+  <audio controls>
+      <source src="/audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+  </audio>
+    
   <h2>Main Section</h2> 
   <p> Paragraph </p>
 
@@ -30,6 +36,7 @@
   <!-- -->
   <h3>Footer</h3>
   <p>Article?</p>
+  <img src="/media/example.jpg" alt="alternate text">
     
 <form> 
 <fieldset>
