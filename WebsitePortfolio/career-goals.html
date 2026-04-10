@@ -1,30 +1,7 @@
 <!DOCTYPE html>
 <!--
 **  -Must have: Locally sources image, audio, video 
-    a Form to collect information that has the fields 
-
-~   first name
-
-~   last name
-
-~   company name
-
-~   email address (type=email)
-
-~   phone number (type=tel)
-
-~   message (text area)
-
-~   best contact time (radio buttons)
-
-    •   a.m., p.m., anytime
-
-~   select list (single option)
-
- •   phone, email, or text
-
-~   submit button
-    
+    a Form to collect information that has the fields
 -->
 <html>
 
@@ -53,24 +30,24 @@
   <!-- -->
   <h3>Footer</h3>
   <p>Article?</p>
-
-
-<form> 
-  <label for="fname">First Name:</label>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last Name:</label>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="cname">Company Name:</label>
-  <input type="text" id="cname" name="cname"><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br>
-  <label for="tel">Phone Number:</label>
-  <input type="tel" id="tel" name="tel"><br>
-  <label for="message">Message:</label>
-  <input type="text" id="message" name="message"><br>
-
     
-  <p>What's the best time to contact you?</p><br>
+<form> 
+<fieldset>
+<legend>Contact:</legend>
+ <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="cname">Company Name:</label><br>
+  <input type="text" id="cname" name="cname"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="tel">Phone Number:</label><br>
+  <input type="tel" id="tel" name="tel"><br>
+  <label for="message">Message:</label><br>
+  <input type="text" id="message" name="message">
+ 
+  <p>What's the best time to contact you?</p>
   <form>
   <input type="radio" id="am" name="contact_time" value="A.M">
   <label for="am">A.M</label><br>
@@ -79,9 +56,15 @@
   <input type="radio" id="anytime" name="contact_time" value="Anytime">
   <label for="anytime">Anytime</label><br>
   </form>
-  
-    
+
+  <label for="pref_contact">Select your preffered contact method</label><br>
+  <select id="pref_contact" name="pref_contact">
+    <option value="call">Call</option>
+    <option value="text">Text</option>
+    <option value="email">Email</option>
+      
   <input type="submit">
+</fieldset>
 </form>
 
   
