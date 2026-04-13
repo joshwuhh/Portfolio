@@ -1,60 +1,57 @@
 <!DOCTYPE html>
-
-<!-- 
-
-
--Must have: 3 different <h1></h1>, <span></span> , <p></p>, <br>,<hr>,<div>To display current time , using javascript </div>
-     <hyperlink></hyperlink>, un ordered or ordered <list></list>, atleast 1 <table></table> with captions, 
-      a table with atleast 4 columns and 3 rows,
-      <strong></strong> , <em></em>, javascript to write an appropriate message to console 
-
--->
-
-<html lang="en">
-     
+<html lang="en">  
 <head>  
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"
 <title>Joshuah's Resume</title>
+<link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-     <h1> Header </h1>  
-     <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+     
+<!-- HEADER --> 
+  <header id="header">
+    <h1> Joshuah Rodriguez</h1>  
+    <span class="subtitle">Financial Technology Engineer</span>
+    <div id="date-display"></div>
+  </header>
+     
+<!--- NAVIGATION --->    
+  <nav>Navigation
+    <a href="/resume.html">Resume</a> 
+    <a href="/cover-letter.html">Cover letter</a>
+    <a href="/career-goals.html">Career Goals</a>  
+  </nav>
 
-<p id="demo"></p>
-<nav>Navigation</nav>
-  <a href="/resume.html">Resume</a> 
-  <a href="/cover-letter.html">Cover letter</a>
-  <a href="/career-goals.html">Career Goals</a>  
+<!-- MAIN SECTION -->
+  <main>
+    <section>
+      <h2>Contact Information</h2>
+      <article>
+        <ul class="clean-list">
+          <li><strong>Email:</strong> <a href="mailto:joshuah.rodriguez@email.com">joshuah.rodriguez@email.com</a></li>
+          <li><strong>Phone:</strong> (201) 555-0192</li>
+          <li><strong>Location:</strong> Bayonne, New Jersey</li>
+       </ul>
+      </article>
+  </section>
 
-<table>
-<br>
-<caption>Contact</caption>
-  <tr>
-    <th>Email</th>
-    <th>Phone</th>
-    <th>Area</th>
-  </tr>
-  <tr>
-       <td>example@email.com</td>
-       <td>999-999-9999</td>
-       <td>New Jersey</td>
-  </tr>
-</table>
-    <link rel="stylesheet" href="styles.css"> 
-        
-          <p> Mission Statement </p>
-          
-          
-          <main>
-               <h2>Work History</h2> 
-                 <p>Manager - <em>Jack & Jones</em> </p>
-                 <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>  
+<!-- MISSION STATEMENT -->
+  <p> Mission Statement </p>
+   <p>Aspiring <strong>Financial Technology Engineer</strong> with experience designing and implementing 
+    scalable fintech systems and payment processing platforms.
+    Adept at bridging the gap between <em>financial domain expertise</em> and modern software engineering
+    practices. Committed to building secure, compliant, and high-performance systems.
+    </p>
+   
+
+<!-- WORK HISTORY -->
+    <h2>Work History</h2> 
+       <p>Manager - <em>Jack & Jones</em> </p>
+       <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>  
                  </ul>   
                 <p>Department Manager - <em>Zara</em></p>
                  <ul>
@@ -62,50 +59,79 @@ Click me to display Date and Time.</button>
                     <li>Lorem ipsum</li>
                     <li>Lorem ipsum</li>  
                  </ul> 
-          </main>   
-          
-          <section>  
-               <h2>Education</h2>
-                 <p>BS, Computer Science - <strong>Western Governors University</strong> <span>(2028)</span></p>
-                    
-          </section>  
-          
-          
-          <footer>
-            <h3>Footer</h3>
-                 <table>
-                    <caption>References</caption>
-                    <tr>
-                         <th>Name</th>
-                         <th>Number</th>
-                         <th>Email</th>
-                         <th>Relation</th>
-                    </tr>
-                    <tr>
-                         <td>Will Smith</td>
-                         <td>(411)343-1211</td>
-                         <td>belairking@email.com</td>
-                         <td>Legend</td>
-                    </tr>
-                    <tr>
-                         <td>Justin Timberlake</td>
-                         <td>(201)534-8425</td>
-                         <td>sexyback@email.com</td>
-                         <td>Cousin</td>
-                    </tr>  
-                     <tr>
-                         <td>Moe</td>
-                         <td>(387)300-8123</td>
-                         <td>Moesbagels@email.com</td>
-                         <td>Deli Guy</td>
-                    </tr>  
-               </table>
-          </footer>
-               
-          <article>
-               
-                    
-          </article>
-               
-     </body>
+    
+<!-- EDUCATION --> 
+       
+  <section> 
+    <article>
+     <h2>Education</h2>
+     <h3>BS, Computer Science - <strong>Western Governors University</strong> <span>(2028)</span></h3>  
+     <h4>Western Governors University</h4>
+     <span>Expected Graduation: 2025</span>
+     <br></br>
+     <p>Relevant coursework: Data Structures &amp; Algorithms, Software Engineering, Database Management,
+        Network &amp; Security Foundations, Discrete Mathematics.</p>
+    </article>
+  </section>  
+
+<!-- CERTIFICATIONS -->
+  <section class="section-block">
+    <h2>Certifications &amp; Awards</h2>
+      <article>
+        <ol class="numbered-list">
+          <li>CompTIA Data+ (2022)</li>
+          <li>ITIL 4 Foundation(2026)</li>
+          <li>Linux Professional Institute Linux Essentials(2026)</li>
+        </ol>
+        </br>
+      </article>
+    </section>
+     
+<!-- REFERENCES -->
+  <table>
+    <caption>References</caption>
+    <tr>
+      <th>Name</th>
+      <th>Number</th>
+      <th>Email</th>
+      <th>Relation</th>
+    </tr>
+    <tr>
+      <td>Will Smith</td>
+      <td>(411)343-1211</td>
+      <td>belairking@email.com</td>
+      <td>Legend</td>
+    </tr>
+    <tr>
+      <td>Justin Timberlake</td>
+      <td>(201)534-8425</td>
+      <td>sexyback@email.com</td>
+      <td>Cousin</td>
+    </tr>  
+    <tr>
+      <td>Moe</td>
+      <td>(387)300-8123</td>
+      <td>Moesbagels@email.com</td>
+      <td>Deli Guy</td>
+    </tr>  
+    </table>
+</main>
+
+<!-- FOOTER-->
+ <footer>
+    <p>&copy; 2025 Joshuah Rodriguez &mdash; Financial Technology Engineer</p>
+    <p>Bayonne, NJ &nbsp;|&nbsp; joshuah.rodriguez@email.com</p>
+  </footer>
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // Populate current date in the header div
+    const dateDiv = document.getElementById('date-display');
+    const today = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    dateDiv.textContent = 'Last Updated: ' + today.toLocaleDateString('en-US', options);
+
+    // Console message
+    console.log('Welcome to Joshuah Rodriguez\'s portfolio résumé page. Loaded on: ' + today.toString());
+  </script>
+  </body>
 </html>
