@@ -46,20 +46,26 @@
    
 
 <!-- WORK HISTORY -->
+  <article>
     <h2>Work History</h2> 
-       <p>Manager - <em>Jack & Jones</em> </p>
+       <h3>Manager - <em>Jack & Jones</em> </h3>
        <ul>
           <li>Lorem ipsum</li>
           <li>Lorem ipsum</li>
           <li>Lorem ipsum</li>  
-                 </ul>   
-                <p>Department Manager - <em>Zara</em></p>
-                 <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>  
-                 </ul> 
-    
+       </ul> 
+  </article>
+  <br></br>
+  <article> 
+       <h3>Department Manager - <em>Zara</em></h3>
+         <ul>
+           <li>Lorem ipsum</li>
+           <li>Lorem ipsum</li>
+           <li>Lorem ipsum</li>  
+         </ul> 
+  </article>
+       
+  
 <!-- EDUCATION --> 
        
   <section> 
@@ -119,19 +125,21 @@
 
 <!-- FOOTER-->
  <footer>
-    <p>&copy; 2025 Joshuah Rodriguez &mdash; Financial Technology Engineer</p>
+    <p>2025 Joshuah Rodriguez; Financial Technology Engineer</p>
     <p>Bayonne, NJ &nbsp;|&nbsp; joshuah.rodriguez@email.com</p>
+    <p>This rresume was prepared for portfolio purposes as part of an academic assignment.</p>
   </footer>
-  <!-- ===== JAVASCRIPT ===== -->
+  
+  <!-- JAVASCRIPT -->
   <script>
     // Populate current date in the header div
     const dateDiv = document.getElementById('date-display');
     const today = new Date();
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    dateDiv.textContent = 'Last Updated: ' + today.toLocaleDateString('en-US', options);
+    dateDiv.textContent = 'Loaded on: ' + today.toLocaleDateString('en-US', options);
 
-    // Console message
-    console.log('Welcome to Joshuah Rodriguez\'s portfolio résumé page. Loaded on: ' + today.toString());
+   //MESSAGE TO CONSOLE
+    console.log('Welcome to Joshuah Rodriguez\'s portfolio resume page. Loaded on: ' + today.toString());
   </script>
   </body>
 </html>
