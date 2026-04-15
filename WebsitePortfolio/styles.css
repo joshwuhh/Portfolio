@@ -25,13 +25,13 @@ a:hover {
 
 /* ID selector , background color */
 #header {
-  background-color: #0d3b66;
-  color: #f0f0f0;
+  background-color:midnightblue;
+  color:wheat;
   padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-bottom: 4px solid #c9a84c;
+  border-bottom: 4px solid sandybrown;
 }
 
 /* class selector */
@@ -57,14 +57,14 @@ ol.numbered-list {
 h1 {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: 2.4rem;
-  color: #0d3b66;
+  color:navy;
   letter-spacing: 1px;
 }
  
 h2 {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: 1.6rem;
-  color: #0d3b66;
+  color:navy;
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #c9a84c;
   padding-bottom: 0.3rem;
@@ -74,6 +74,7 @@ h3 {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: 1.2rem;
   font-style: italic;
-  color: #1a3a5c;
+  color: navy;
   margin-bottom: 0.3rem;
 }
+
