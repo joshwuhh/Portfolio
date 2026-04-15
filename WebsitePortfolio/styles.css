@@ -1,29 +1,79 @@
-Must: Be linked to all HTML files
-Utilize each of the following in atleast one HTML file
-•   element selector
+/* style.css — Joshuah Rodriguez Portfolio
+   External stylesheet linked to all HTML pages */
+ 
+/* Universal , margin , padding */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+/*  Element Selectors , Font , Color , Background  */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: #f5f7fa;
+  color: #1a1a2e;
+  font-size: 16px;
+  line-height: 1.7;
+}
 
-•   class selector
+/*  Pseudo-class , border */
+a:hover {
+  color: #c9a84c;
+  border-bottom-color: #c9a84c;
+}
 
-•   id selector
+/* ID selector , background color */
+#site-header {
+  background-color: #0d3b66;
+  color: #f0f0f0;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 4px solid #c9a84c;
+}
 
-•   descendant selector
+/* class selector */
+.page-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 2rem 3rem;
+}
 
-•   pseudo-class selector
 
-•   universal selector
+/* list selector */ 
+ol.numbered-list {
+  list-style-type: decimal;
+}
 
-•   font property
+/* Descendant */
+.section-block ol {
+  padding-left: 1.4rem;
+  margin-bottom: 0.8rem;
+}
 
-•   color property
-
-•   font-style property
-
-•   background-color property
-
-•   margin property
-
-•   padding property
-
-•   border property
-
-•   at least 1 list-style property
+/* element , font-style */
+h1 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 2.4rem;
+  color: #0d3b66;
+  letter-spacing: 1px;
+}
+ 
+h2 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 1.6rem;
+  color: #0d3b66;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #c9a84c;
+  padding-bottom: 0.3rem;
+}
+ 
+h3 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #1a3a5c;
+  margin-bottom: 0.3rem;
+}
