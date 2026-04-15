@@ -2,78 +2,93 @@
 <!--
 
 -->
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0"
     <title>Career Goals</title>     
-    <h1> Header </h1>  
-    <nav> Must link to other documents</nav>
-    <a href="/resume.html">Resume</a> 
-    <a href="/cover-letter.html">Cover letter</a>
-    <a href="/career-goals.html">Career Goals</a> 
+  
 </head>
 
 
 <body>
+
+      <h1> Header </h1>  
+    <nav> Must link to other documents</nav>
+    <a href="/resume.html">Resume</a> 
+    <a href="/cover-letter.html">Cover letter</a>
+    <a href="/career-goals.html">Career Goals</a> 
+
+  <section>
   <video width="320" height="240" autoplay muted controls>
       <source src="/video.mp4" type="video/mp4">
       Your browser does not support the video tag. 
   </video>
+
+    
   <audio controls>
       <source src="/audio.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
   </audio>
+</section> 
+
+
     
-  <h2>Main Section</h2> 
+ <!-- MAIN --> 
+ <main>  
   <p> Paragraph </p>
 
 
   <!-- -->
   <h2>Section 2</h2>
   <p>Content</p>
-
-  <!-- -->
-  <h3>Footer</h3>
-  <p>Article?</p>
-  <img src="/media/example.jpg" alt="alternate text">
+ </main> 
     
-<form> 
-<fieldset>
-<legend>Contact:</legend>
- <label for="fname">First Name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last Name:</label><br>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="cname">Company Name:</label><br>
-  <input type="text" id="cname" name="cname"><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br>
-  <label for="tel">Phone Number:</label><br>
-  <input type="tel" id="tel" name="tel"><br>
-  <label for="message">Message:</label><br>
-  <input type="text" id="message" name="message">
- 
-  <p>What's the best time to contact you?</p>
-  <form>
-  <input type="radio" id="am" name="contact_time" value="A.M">
-  <label for="am">A.M</label><br>
-  <input type="radio" id="pm" name="contact_time" value="P.M">
-  <label for="pm">P.M</label><br>
-  <input type="radio" id="anytime" name="contact_time" value="Anytime">
-  <label for="anytime">Anytime</label><br>
-  </form>
+  <!-- FOOOTER -->
+<footer id="footer">
+  <article>
+  <img src="/media/example.jpg" alt="alternate text">
+  </article> 
 
-  <label for="pref_contact">Select your preffered contact method</label><br>
-  <select id="pref_contact" name="pref_contact">
-    <option value="call">Call</option>
-    <option value="text">Text</option>
-    <option value="email">Email</option>
-      
-  <input type="submit">
-</fieldset>
-</form>
-
-  
+    
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post"> 
+    <fieldset>
+    <legend>Contact:</legend>
+     <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="cname">Company Name:</label><br>
+      <input type="text" id="cname" name="cname"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="tel">Phone Number:</label><br>
+      <input type="tel" id="tel" name="tel"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"> </textarea>
+     
+      <p>What's the best time to contact you?</p>
+    
+      <input type="radio" id="am" name="contact_time" value="A.M">
+      <label for="am">A.M</label><br>
+      <input type="radio" id="pm" name="contact_time" value="P.M">
+      <label for="pm">P.M</label><br>
+      <input type="radio" id="anytime" name="contact_time" value="Anytime">
+      <label for="anytime">Anytime</label><br>
+    
+    
+      <label for="pref_contact">Select your preffered contact method</label><br>
+      <select id="pref_contact" name="pref_contact">
+        <option value="call">Call</option>
+        <option value="text">Text</option>
+        <option value="email">Email</option>
+      </select>
+      <input type="submit">
+    </fieldset>
+    </form>
+</footer>
+    
 </body>
 </html>
